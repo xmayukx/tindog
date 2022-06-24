@@ -1,0 +1,235 @@
+
+/* Containers & Sections */
+
+body {
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.download-button {
+    font-family: "Ubuntu";
+    margin: 0 1.5%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: whitesmoke;
+}
+
+
+
+/* Title-section */
+
+#title.container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Navigation-bar */
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: 700;
+}
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.nav-item {
+    padding: 0 5%;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: aliceblue;
+}
+
+.iphone-img {
+    
+    width: 19em;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 1em;
+}
+
+
+
+/* Feature-section */
+
+#features {
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#features.container-fluid {
+    padding: 7% 10%;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.f-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.f-icon:hover {
+    color: #ff4c68;
+}
+
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials.colored-section {
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+
+
+/* Press */
+
+#press.colored-section {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+.press-img {
+    width: 10%;
+    margin: 1% 2%;
+}
+
+
+
+/* Pricing */
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#pricing .big-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+    color: black;
+    padding-bottom: 0.5em;
+}
+
+#pricing.container-fluid {
+    text-align: left;
+}
+
+
+
+/* Footer-section */
+
+.footer-icons {
+    padding: 1em;
+    color: black;
+}
+
+
+
+
+/* For-Mobile */
+
+@media (max-width: 1100px) {
+    .big-heading {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        font-weight: 900;
+        color: white;
+        padding-bottom: 0.5em;
+    }
+
+    #pricing .big-heading {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        font-weight: 900;
+        color: black;
+        padding-bottom: 0.5em;
+    }
+
+    .iphone-img {
+        padding-top: 1em;
+        position: static;
+        transform: rotate(0);
+        width: 15em;
+    }
+
+    .container-fluid {
+        text-align: center;
+        padding: 5% 10%;
+    }
+
+    #title.container-fluid {
+        padding: 3% 15% 7%;
+        text-align: center;
+    }
+    
+    #cta.container-fluid{
+        padding: 7% 10%;
+    }
+
+    .price-card{
+        line-height:1em;
+    }
+}
