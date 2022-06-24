@@ -191,22 +191,7 @@ p {
 
 /* For-Mobile */
 
-@media (max-width: 400px) {
-    .big-heading {
-        font-size: 2.5rem;
-        line-height: 1.2;
-        font-weight: 900;
-        color: white;
-        padding-bottom: 0.5em;
-    }
-
-    #pricing .big-heading {
-        font-size: 2.5rem;
-        line-height: 1.2;
-        font-weight: 900;
-        color: black;
-        padding-bottom: 0.5em;
-    }
+@media (max-width: 1532px) {
 
     .iphone-img {
         padding-top: 1em;
