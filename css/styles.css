@@ -191,7 +191,7 @@ p {
 
 /* For-Mobile */
 
-@media (max-width: 412px),(min-height: 756px) and (orientation: portrait) {
+@media (min-width: 412px)and (orientation: portrait) {
 
     .iphone-img {
         padding-top: 5em;
@@ -294,8 +294,32 @@ p {
         padding-bottom: 0.5em;
     }
 
-    .card-img-top{
-        width:100%;
-        height: 75%;
+    .footer-icons {
+        padding: 2em;
+        color: black;
+    }
+
+    #pricing-text.big-heading{
+        font-size: 6.5rem;
+        text-align: left;
+        line-height: 1.2em;
+        
+    }
+    #pricing p{
+        line-height: 1.2em;
+        padding: 0.2em;
+    }
+
+    #pricing .download-button{
+        font-family: "Ubuntu";
+        margin: 0 1.5%;
+        --bs-btn-padding-y: 1.5rem; 
+        --bs-btn-padding-x: 3.5rem; 
+        --bs-btn-font-size: 3.5rem;
+        margin:10%;
+    }
+    .press-img {
+        width: 20%;
+        margin: 1.5% 2%;
     }
 }
